@@ -1,5 +1,9 @@
 package com.softbank.redismanagement.service;
 
+import java.io.IOException;
+
 public interface RedisManagementService {
-    void exportFileCSV();
+    void exportFileCSV() throws IOException;
+
+    void deleteDataCSV();
 }
